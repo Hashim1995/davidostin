@@ -1,0 +1,592 @@
+body {
+    overflow-x: hidden !important;
+    font-family: 'Noto Sans' !important;
+}
+
+header {
+    background-color: #00693c;
+}
+
+ul {
+    list-style: none;
+}
+
+.mainDiv {
+    padding: 0 !important;
+}
+
+
+/* HEADER */
+
+
+.headerTopRow {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.logoDiv {
+    text-align: center;
+}
+
+.logo {
+    height: 150px;
+}
+
+.headerIcons {
+    height: 20px;
+}
+
+.headerRightBarUL > li:nth-child(2) > a > img{
+    padding: 0 6px;
+}
+
+.searchInput {
+    border: 1px solid white !important;
+    background-color: rgba(255, 0, 0, 0.0) !important;
+    color: #eaeaea !important;
+    font-family: 'Noto Sans' !important;
+    font-size: 16px !important;
+    border: 4px;
+}
+
+
+.searchInput:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.searchInput::placeholder {
+    color: #eaeaea !important;
+    font-family: 'Noto Sans' !important;
+    font-size: 15px !important;
+    font-weight: lighter;
+}
+
+li {
+    display: inline-block;
+}
+
+.headerLang {
+    color: #eaeaea;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+}
+
+.headerLang:hover,
+.headerLang:focus {
+    text-decoration: none;
+    color: #b9b9b9;
+    transition: 0.5s;
+}
+
+.headerLangBorder {
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    padding: 0 4px;
+}
+
+.navbar-inverse {
+    background-color: #00693c !important;
+    border-color: #00693c !important;
+    border-radius: 0 !important;
+}
+
+.navbar-nav {
+    float: none !important;
+    text-align: center;
+}
+
+.navbar-nav li {
+    float: none !important;
+    display: inline-block !important;
+}
+
+.navbar-nav li a {
+    color: #eaeaea !important;
+    font-size: 18px;
+    font-family: 'Noto Sans';
+}
+@media only screen and (max-width: 400px) {
+    .navbar-nav li a {
+        font-size: 14px;
+    }
+}
+.navbar-nav li a:hover {
+    color: #b9b9b9 !important;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+.navitemsBorder {
+    border-right: 1px solid #eaeaea;
+    padding: 0 10px 0 7px !important;
+}
+
+.navbar-toggle {
+    border-color: white !important;
+    float: none !important;
+    margin: 0 0 8px 0 !important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #00693c !important;
+}
+.navbar-header{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav{
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logoDiv {
+        margin-bottom: 20px;
+    }
+    .headerTopRow div ul {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .searchDiv {
+        text-align: center !important;
+    }
+    .searchInput {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .headerRightBarUL {
+        padding-left: 0;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* HEADER */
+
+
+/* CARUSEL */
+
+.item img {
+    max-height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* CARUSEL */
+
+
+/* itemCard */
+
+
+.itemCard .container .row {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    .itemCard .container .row {
+     padding: 7%;
+    }
+}
+
+.itemCardImage:hover {
+    -webkit-box-shadow: 0px 0px 14px 1px #00693c;
+    -moz-box-shadow: 0px 0px 14px 1px #00693c;
+    box-shadow: 0px 0px 14px 1px #00693c;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.itemCardHeader {
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    font-size: 25px !important;
+}
+
+.itemCardImage {
+    min-height: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.itemCardSpan {
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #00693c;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 11px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.itemCardSpan h5 {
+    padding-top: 2%;
+}
+
+.itemCardSpanH6,
+.itemCardPrice {
+    text-align: center;
+    font-family: 'Noto Sans';
+    color: white;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.itemCardButton {
+    border: none;
+    background-color: #00693c !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    color: white !important;
+    font-size: 16px !important;
+    font-family: 'Noto Sans' !important;
+}
+
+.itemCardButton:hover,
+.itemCardButton:active,
+.itemCardButton:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: underline !important;
+    transition: 0.5s !important;
+}
+
+@media only screen and (max-width:440px) {
+    .itemCardImage {
+        min-height: 200px;
+        max-height: 200px;
+        max-width: 200px;
+        min-width: 200px;
+    }
+    .itemCardSpan {
+        max-width: 200px;
+        min-width: 200px;
+    }
+}
+
+
+/* itemCard */
+
+
+/* Flowers */
+.flowersCategoryUL, .flowersBudgetUl{
+    margin: 0 auto;
+}
+.flowersBudgetUl{
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.flowersCategoryUL li:nth-child(1), .flowersBudgetUl li:nth-child(1){
+  font-style: italic;
+}
+.flowersCategoryUL li a, .flowersBudgetUl li a{
+    font-size: 16px !important;
+    font-family: 'Noto Sans' !important;
+    color: #000000;
+    transition: 0.5s;
+}
+.flowersCategoryUL li a:hover, .flowersBudgetUl li a:hover{
+    text-decoration: none;
+    color: #5AA586;
+    transition: 0.5s;
+}
+.flowersActiveLi a{
+   background-color: #5AA586;
+   padding: 0 3px;
+   font-size: 16px !important;
+   font-family: 'Noto Sans' !important;
+   color: #000000;
+}
+.flowersActiveLi a:hover{
+    color: white !important;
+}
+/* Flowers */
+
+
+/* MODAL */
+
+.modalHeader {
+    float: left;
+    font-family: 'Noto Sans' !important;
+}
+
+.modalCloseIcon {
+    float: right;
+    text-decoration: none;
+    color: #b9b9b9;
+}
+
+.modalCloseIcon:hover {
+    color: #00693c !important;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.modalInfoText {
+    font-family: 'Noto Sans' !important;
+    font-weight: bold;
+}
+
+.modalPrice {
+    font-family: 'Noto Sans' !important;
+    color: #00693c;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.modalForm {
+    display: inline-block;
+}
+
+.modalBasketImg {
+    border-radius: 50%;
+    background-color: #00693c;
+    height: 42px;
+    width: 42px;
+    padding: 9px;
+    margin-left: 6%;
+}
+
+.modalInput {
+    border: solid 1px #b9b9b9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('../images/upArrow.png'), url('../images/downArrow.png');
+    background-position: 94% 4px, 94% 20px;
+    background-repeat: no-repeat !important;
+    background-size: 15px;
+}
+
+.modalInput:focus {
+    border: solid 1px #b9b9b9 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    .ubislider-image-container,
+    .ubislider {
+        width: 100% !important;
+    }
+}
+
+
+/* MODAL */
+
+
+
+/* CONTACT */
+
+.contact{
+    margin-bottom: 8%; 
+}
+
+.contact .container .row{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    .contact .container .row {
+     padding: 7%;
+    }
+}
+
+
+.contactNameInput, .contactEmailInput, .contactTextarea{
+    background-color: #E1E1E1 !important;
+    font-family: 'Noto Sans';
+    border-radius: none !important;
+    margin: 10px 0;
+    padding: 25px !important;
+}
+.contactNameInput:active,
+ .contactEmailInput:active,
+ .contactTextarea:active,
+ .contactNameInput:focus,
+ .contactEmailInput:focus,
+ .contactTextarea:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: transparent !important;
+}
+.contactNameInput::placeholder, .contactEmailInput::placeholder, .contactTextarea::placeholder{
+    font-family: 'Noto Sans';
+    color: #b9b9b9 !important;
+}
+.contactButton{
+    background-color: #00693c;
+    font-family: 'Noto Sans';
+    font-size: 25px;
+    color: #ffffff;
+    border: none !important;
+    width: 100%;
+    padding: 9px;
+}
+.contactButton:hover, .contactButton:active, .contactButton:focus{
+    background-color: #5AA586;
+    border: none !important;
+}
+/* CONTACT */
+
+
+
+
+/* WEDDING */
+
+.wedding .container .row{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    .wedding .container .row {
+     padding: 7%;
+    }
+}
+
+
+.wedding{
+    margin-bottom: 8%; 
+}
+.weddingText{
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+}
+.weddingImg{
+    max-width: 100%;
+    margin: 20px 0;
+}
+/* WEDDING */
+
+
+
+
+
+/* FOOTER */
+
+
+footer .container .row {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 6%;
+}
+
+footer {
+    background-color: #00693c;
+    margin-top: 4%;
+}
+
+.logoFooter {
+    width: 170px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.footerCopyright {
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-weight: lighter;
+    font-size: 12px;
+    color: #eaeaea;
+    padding-top: 15px;
+}
+
+.footrInputHeader {
+    font-size: 40px;
+    color: white;
+    font-family: 'Noto Sans';
+    text-align: center;
+    margin-top: -14px !important;
+    margin-bottom: 38px !important;
+}
+
+.footerInput {
+    width: 100% !important;
+    border-radius: 0 !important;
+    height: 50px !important;
+    font-family: 'Noto Sans' !important;
+}
+
+.footerInput:focus,
+.footerInput:hover {
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+
+.footerInput::placeholder {
+    color: #C9C9C9 !important;
+    font-family: 'Noto Sans' !important;
+    font-size: 15px;
+}
+
+.footerInput {
+    background-image: url("../images/rightArrow.png") !important;
+    background-position: 94% 13px !important;
+    background-repeat: no-repeat !important;
+    background-size: 21px;
+}
+
+.footerSocialIcons {
+    display: inline-block;
+    height: 36px;
+}
+.footerSocialIcons:hover{
+    cursor: pointer;
+}
+
+.footerSocialDiv {
+    margin-top: 30%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+    .footrInputHeader {
+        margin-top: 0 !important;
+    }
+    .footerSocialDiv {
+        margin-top: 0 !important;
+        text-align: center !important
+    }
+}
+
+
+/* FOOTER */

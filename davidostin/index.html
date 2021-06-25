@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>David Ostin</title>
+
+    <!-- FiraSans Fonts Google-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+    <!-- Style CSS !-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Slider CSS !-->
+    <link rel="stylesheet" href="css/ubislider.min.css">
+    <!-- Bootstrap CSS !-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Font Awesome !-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid mainDiv">
+
+
+        <header>
+            <div class="row headerTopRow">
+                <div class="col-lg-offset-4 col-lg-4 logoDiv">
+                    <img class="logo" src="images/logo.png" alt="Logo">
+                </div>
+                <div class="col-lg-offset-2 col-lg-2 col-md-12">
+                    <ul class="headerRightBarUL">
+                        <li>
+                            <a href="#">
+                                <img class="headerIcons" src="images/basket.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="headerIcons" src="images/login.png" alt="" style="padding: 0 3px;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img data-toggle="collapse" data-target="#search" class="headerIcons" src="images/search.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="headerRightBarUL">
+                        <li>
+                            <a class="headerLang" href="#">
+                                AZ
+                            </a>
+                        </li>
+                        <li>
+                            <a class="headerLang headerLangBorder" href="#">
+                                RU
+                            </a>
+                        </li>
+                        <li>
+                            <a class="headerLang" href="#">
+                                EN
+                            </a>
+                        </li>
+                    </ul>
+                    <div id="search" class="searchDiv collapse">
+                        <form action="">
+                            <input class="searchInput" type="text" placeholder=" search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin: 0;">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="">
+                                    <a class="navitemsBorder" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="navitemsBorder" href="#">Flowers</a>
+                                </li>
+                                <li>
+                                    <a class="navitemsBorder" href="#">Plants</a>
+                                </li>
+                                <li>
+                                    <a class="navitemsBorder" href="#">Gifts</a>
+                                </li>
+                                <li>
+                                    <a class="navitemsBorder" href="#">Compositions</a>
+                                </li>
+                                <li>
+                                    <a class="navitemsBorder" href="#">Accessories</a>
+                                </li>
+                                <li>
+                                    <a class="navitemsBorder" href="#">Wedding</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/IMG_2352.jpg">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/IMG_2342.jpg">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/IMG_2345.jpg">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+
+        <section class="itemCard">
+            <div class="container">
+                <div class="row">
+                    <h2 class="itemCardHeader">New &amp; Noteworth</h2>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <img class="itemCardImage" src="images/IMG_2345.jpg" alt="" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <img class="itemCardImage" src="images/IMG_2364.jpg" alt="" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <img class="itemCardImage" src="images/IMG_2352.jpg" alt="" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <img class="itemCardImage" src="images/IMG_2335.jpg" alt="" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <img class="itemCardImage" src="images/IMG_2342.jpg" alt="" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <img class="itemCardImage" src="images/IMG_2356.jpg" alt="" data-toggle="modal" data-target="#myModal">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modalHeader">Lorem Ipsum</h4>
+                        <a href="#" class="modalCloseIcon close" data-dismiss="modal">X</a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="ubislider-image-container" data-ubislider="#slider1" data-image="0">
+                                        <img src="images/IMG_2364.jpg">
+                                    </div>
+                                    <div id="slider1" class="ubislider ecommerce" data-slidetime="0">
+                                        <a class="arrow prev pasive" style="display: none;"></a>
+                                        <a class="arrow next" style="display: none;"></a>
+                                        <ul id="gal1" class="ubislider-inner" style="width: 516px;">
+                                            <li>
+                                                <a>
+                                                    <img class="product-v-img" src="images/IMG_2335.jpg">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <img class="product-v-img" src="images/IMG_2340.jpg">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <img class="product-v-img" src="images/IMG_2342.jpg">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <img class="product-v-img" src="images/IMG_2345.jpg">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <img class="product-v-img" src="images/IMG_2352.jpg">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <img class="product-v-img" src="images/IMG_2356.jpg">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="modalInfoText">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam facilis quisquam quia atque accusamus rerum, tempora
+                                        excepturi cum totam tenetur molestias explicabo, libero, unde consequatur illo quis
+                                        harum repudiandae nulla. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Maxime suscipit reprehenderit quo laboriosam, amet aspernatur perferendis esse. Libero
+                                        sed inventore vitae consequuntur tempore dolores consequatur, commodi placeat quia
+                                        culpa harum!
+                                    </p>
+                                    <h1 class="modalPrice">120 AZN</h1>
+                                    <form class="modalForm" action="">
+                                        <input class="modalInput " id="number" type="number">
+                                    </form>
+                                    <a href="">
+                                        <img class="modalBasketImg" src="images/basket.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="logoFooter img-responsive" src="images/logo.png" alt="">
+                        <p class="footerCopyright">&copy; 2018 David Ostin Flowers Boutique</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="footrInputHeader">Stay Updated</h2>
+                        <div class="form-group">
+                            <input type="email" class="form-control footerInput" id="usr" placeholder="Your email adress">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footerSocialDiv">
+                            <a href="#"><img class="footerSocialIcons" src="images/fb.png" alt=""></a> 
+                            <a href="#"><img class="footerSocialIcons" src="images/instagram.png" alt=""></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+    <!-- Jquerys !-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript !-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Slider JS !-->
+    <script src="js/jquery.min.js.download"></script>
+    <script type="text/javascript" src="js/jqueryElevateZoom.js.download"></script>
+    <script src="js/ubislider.min.js.download"></script>
+    <script src="js/scripts.js.download"></script>
+
+    <script type="text/javascript">
+        $('#slider1').ubislider({
+            arrowsToggle: true,
+            type: 'ecommerce',
+            hideArrows: true,
+            autoSlideOnLastClick: true,
+            modalOnClick: false,
+        });
+
+
+     
+        
+    </script>
+    <!-- Slider JS !-->
+    <script>
+    </script>
+</body>
+
+</html>
